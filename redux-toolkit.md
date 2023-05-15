@@ -21,3 +21,9 @@ También nos ayuda a organizar toda la lógica relacionada con Redux para una de
 Para crear un slice de Redux, utiliza la función createSlice de Redux Toolkit. Esta función acepta un nombre, un estado inicial y funciones reductoras nombradas. Las funciones reductoras pueden "mutar" el estado usando Immer, y se exportan el reductor de slice generado y los creadores de acciones
 
 ...
+
+## Usando Hooks de React-Redux
+
+En tus componentes de React, utiliza los hooks useSelector y useDispatch de react-redux para leer datos de la tienda y despachar acciones según sea necesario
+
+...
